@@ -1,0 +1,28 @@
+# Output of `make`
+build/
+
+# Binaries produced by the build commands in each day's docs
+DAY_01/starter/telemetry
+DAY_02/starter/sensor_demo
+DAY_03/starter/fleet_manager
+DAY_04/starter/event_processor
+DAY_05/starter/sensor_queue
+DAY_05/starter/sensor_queue_tsan
+DAY_06/starter/status_logic
+DAY_07/starter/telemetry
+DAY_07/starter/telemetry_san
+DAY_07/starter/racy_stats
+DAY_07/starter/racy_stats_tsan
+DAY_08/starter/mock_coding
+core
+core.*
+
+# colcon output if a package is built in place
+install/
+log/
+
+# Machine-specific editor settings
+.vscode/
+
+# Packaged course
+dist/
